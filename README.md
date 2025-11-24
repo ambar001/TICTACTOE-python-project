@@ -43,24 +43,15 @@ tic-tac-toe/
 
  X | O | X
 -----------
- O | X |  
+ O | X | 5
 -----------
-   |   | O
+ 6 | 7 | O
 
 Player X wins.
 
-## Future Improvements
 
-- Add single-player mode with AI
-- Add a GUI version using Tkinter or Pygame
-- Add a scoring system
-- Add a replay option
-
-## License
-
-This project is licensed under the MIT License.
 
 ## Author
 
-Your Name
-GitHub: https://github.com/<your-username>
+AMBAR
+

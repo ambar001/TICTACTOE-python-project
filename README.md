@@ -1,9 +1,9 @@
-Tic Tac Toe (Python)
+## Tic Tac Toe (Python)
 
 A simple command-line Tic Tac Toe game written in Python.  
 This project is made for beginners who want to understand basic game logic.
 
-Features
+## Features
 
 - Two-player gameplay (X and O)
 - Valid move checking

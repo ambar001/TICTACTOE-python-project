@@ -41,7 +41,7 @@ tic-tac-toe/
 -----------
  O | X | 5
 -----------
- 6 | 7 | O
+ O | X | 5
 
 Player X wins.
 

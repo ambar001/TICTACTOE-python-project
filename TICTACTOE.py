@@ -12,12 +12,12 @@ def chkwin(tbl):
 
     for win in wins:
   
-        if(tbl[win[0]] == tbl[win[1]] == tbl[win[2]] == 'O'):
+        if(tbl[win[0]]==tbl[win[1]]==tbl[win[2]] == 'O'):
             boardprint(tbl)
             print("O Won the match")
             return 0
         
-        if(tbl[win[0]] == tbl[win[1]] == tbl[win[2]] == 'X'):
+        if(tbl[win[0]]==tbl[win[1]]==tbl[win[2]]=='X'):
             boardprint(tbl)
             print("X Won the match")
             return 1
@@ -34,19 +34,19 @@ turn = 1
 
 while(True):
     try:
-        if turn == 1:
+        if turn==1:
             boardprint(tbl)
             print("\n person1 turn")
-            value = int(input("\nenter number of place "))
+            value=int(input("\nenter number of place "))
 
             if tbl[value]!= 'O':
                 tbl[value] = 'X'
             
 
-        if turn == 0:
+        if turn==0:
             boardprint(tbl)
             print("\n person2 turn\n")
-            value = int(input("\nenter number of place "))
+            value=int(input("\nenter number of place "))
 
             if tbl[value]!= 'X':
                tbl[value] = 'O'
@@ -54,8 +54,8 @@ while(True):
     except IndexError:
         print("\n enter value from 1-8\n")
         continue
-    turn = 1 - turn
-    wonn = chkwin(tbl)
+    turn=1-turn
+    wonn=chkwin(tbl)
     if(wonn!=-1):
         print("Match over")
         break
@@ -63,4 +63,5 @@ while(True):
         print("Game Draw")
         break
    
+
     

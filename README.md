@@ -36,12 +36,11 @@ tic-tac-toe/
   README.md
 
 ## Example Output
-
  X | O | X
 -----------
  O | X | 5
 -----------
- O | X | 5
+ O | 7 | X
 
 Player X wins.
 

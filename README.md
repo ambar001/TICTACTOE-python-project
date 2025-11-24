@@ -40,7 +40,7 @@ tic-tac-toe/
 -----------
  O | X | 5
 -----------
- O | 7 | X
+ ## O | 7 | X
 
 Player X wins.
 

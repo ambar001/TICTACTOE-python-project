@@ -27,12 +27,12 @@ python --version
 
 3. Run the Python file:
 
-python tic_tac_toe.py
+python TICTACTOE.py
 
 ## Project Structure
 
-tic-tac-toe/
-  tic_tac_toe.py
+
+TICTACTOE.py
   README.md
 
 ## Example Output
